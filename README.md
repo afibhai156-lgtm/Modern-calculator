@@ -64,12 +64,9 @@ int main()
                 cin >> a;
                 cout << "enter second num" << endl;
                 cin >> b;
-                if(b != 0) {
-                    lastResult = a / b;
-                    cout << a << "➗ " << b << "=" << lastResult << endl;
-                } else {
-                    cout << "Error! cannot divided by zero" << endl;
-                }
+       (b != 0)cout << a << "➗ " << b << "=" << (lastResult=a/b) << endl
+   :cout << "Error! cannot divided by zero" << endl;
+                
                 break;
                 
             case 5:
